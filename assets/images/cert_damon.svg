@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="damonBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+
+    <linearGradient id="damonGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="25%" stop-color="#eab308"/>
+      <stop offset="50%" stop-color="#ca8a04"/>
+      <stop offset="75%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+
+    <filter id="damonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="10" y="10" width="480" height="320" rx="8" fill="url(#damonBgGrad)" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="22" y="22" width="456" height="296" rx="4" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+
+  <!-- Ormco Logo Top Right -->
+  <g transform="translate(420, 50)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="900" fill="#0f172a" text-anchor="middle" letter-spacing="1">Ormco</text>
+  </g>
+
+  <!-- Title Center -->
+  <text x="250" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="900" fill="#0284c7" text-anchor="middle" letter-spacing="1">DAMON<tspan font-size="12" dy="-8">®</tspan><tspan font-size="22" dy="8" fill="#0f172a"> SYSTEM</tspan></text>
+  <text x="250" y="152" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#0369a1" text-anchor="middle" letter-spacing="4">MASTERCLASS</text>
+  
+  <text x="250" y="178" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#64748b" text-anchor="middle" letter-spacing="1.5">Ormco Orthodontics</text>
+  
+  <line x1="160" y1="190" x2="340" y2="190" stroke="#e2e8f0" stroke-width="1.2"/>
+
+  <text x="250" y="215" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#0f172a" text-anchor="middle">drg. Andini Putri, Sp.Ort</text>
+  <text x="250" y="232" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" fill="#64748b" text-anchor="middle">Advanced Self-Ligating Mechanics &amp; Aesthetic Protocol</text>
+
+  <!-- Gold Seal on Bottom Left -->
+  <g transform="translate(200, 268)">
+    <circle cx="0" cy="0" r="24" fill="url(#damonGold)" filter="url(#damonShadow)"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#ffffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <circle cx="0" cy="0" r="16" fill="url(#damonGold)" stroke="#78350f" stroke-width="0.5"/>
+    <text x="0" y="1" font-family="'Plus Jakarta Sans', sans-serif" font-size="5" font-weight="800" fill="#451a03" text-anchor="middle">MASTER</text>
+    <text x="0" y="7" font-family="'Plus Jakarta Sans', sans-serif" font-size="4" font-weight="700" fill="#78350f" text-anchor="middle">CERTIFIED</text>
+  </g>
+
+  <!-- Signature on Bottom Right -->
+  <g transform="translate(350, 260)">
+    <path d="M -40,10 Q -20,-15 0,5 Q 20,-10 40,-2" fill="none" stroke="#0f172a" stroke-width="1.8"/>
+    <line x1="-50" y1="18" x2="50" y2="18" stroke="#94a3b8" stroke-width="0.8"/>
+    <text x="0" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600" fill="#475569" text-anchor="middle">Program Director Ormco Asia</text>
+  </g>
+</svg>
